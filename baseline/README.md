@@ -4,7 +4,7 @@
 
 `DATASET_PATH/train/train_data/`  
 - `train_data (헤더가 없는 pcm 형식)`
-  - 파일명: idx0000000 ~ 
+  - 파일명: idx000000 ~ 
   - PCM 샘플링 주파수: 16000Hz
   - Mono Channel
 
