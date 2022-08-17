@@ -1,3 +1,23 @@
+# Dataset
+`rootpath = nsml.DATSET_PATH`
+### Train Dataset
+
+`DATASET_PATH/train/train_data/`  
+- `train_data (헤더가 없는 pcm 형식)`
+  - 파일명: idx0000000 ~ 
+  - PCM 샘플링 주파수: 16000Hz
+  - Mono Channel
+
+
+### Train Label
+
+`DATASET_PATH/train/train_label`
+  - `train_label (csv 형식)`
+    - columns - `["filename", "text"]`
+    - `filename` - train_data 폴더에 존재하는 파일명 (ex. idx000000)
+    - `text` - train_data 폴더에 존재하는 파일의 음성 전사 Text 정보 (ex. 인공지능 훈민정음에 꽃 피우다)
+
+
 # Baseline code
 - `main.py` : 실행파일
 - `setup.py`: 환경설정(Base Docker Image, Python libraries)
